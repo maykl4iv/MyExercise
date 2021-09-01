@@ -16,3 +16,6 @@ Promise.all([ grab( urls[0]), grab( urls[1])] )
   .then(resp => [].concat(resp[0], resp[1]) )
   .then( arr => arr.join(' '))
   .then( str => console.log(str));
+
+  // Т732УР197
+  //Ð¢
